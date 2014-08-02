@@ -1,0 +1,31 @@
+
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+与父窗口对齐
+
+ 
+    android:layout_alignTop="@id/aaa"
+    android:layout_alignBottom="@id/aaa"
+    android:layout_alignLeft="@id/aaa"
+    android:layout_alignRight="@id/aaa"
+与控件对齐
+
+    android:layout_below="@id/aaa"
+    android:layout_above="@id/aaa"
+    android:layout_toLeftOf="@id/aaa"
+    android:layout_toRightOf="@id/aaa"
+与控件的四条边对齐
+
+    android:layout_centerHorizontal="true"
+定义控件相对父窗口左右局中
+
+
+    android:layout_centerVertical="true"
+定义控件相对父窗口上下局中
+
+
+    android:layout_centerInParent="true"
+定义控件相对父窗口上下左右都局中

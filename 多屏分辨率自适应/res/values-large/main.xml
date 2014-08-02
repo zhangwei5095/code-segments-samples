@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="horizontal">  
+    <fragment android:id="@+id/headlines"  
+              android:layout_height="match_parent"  
+              android:name="fm_a"  
+              android:layout_width="400dp"  
+              android:layout_marginRight="10dp"/>  
+    <fragment android:id="@+id/article"  
+              android:layout_height="match_parent"  
+              android:name="fm_b"  
+              android:layout_width="match_parent" />  
+</LinearLayout>  
