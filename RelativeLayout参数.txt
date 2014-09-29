@@ -1,31 +1,38 @@
-
+ä¸çˆ¶çª—å£å¯¹é½
 
     android:layout_alignParentTop="true"
     android:layout_alignParentBottom="true"
     android:layout_alignParentLeft="true"
     android:layout_alignParentRight="true"
-Óë¸¸´°¿Ú¶ÔÆë
 
- 
+
+
+ ä¸æ§ä»¶å¯¹é½
+
     android:layout_alignTop="@id/aaa"
     android:layout_alignBottom="@id/aaa"
     android:layout_alignLeft="@id/aaa"
     android:layout_alignRight="@id/aaa"
-Óë¿Ø¼ş¶ÔÆë
+
+
+ä¸æ§ä»¶çš„å››æ¡è¾¹å¯¹é½
 
     android:layout_below="@id/aaa"
     android:layout_above="@id/aaa"
     android:layout_toLeftOf="@id/aaa"
     android:layout_toRightOf="@id/aaa"
-Óë¿Ø¼şµÄËÄÌõ±ß¶ÔÆë
+    
+
+å®šä¹‰æ§ä»¶ç›¸å¯¹çˆ¶çª—å£å·¦å³å±€ä¸­
 
     android:layout_centerHorizontal="true"
-¶¨Òå¿Ø¼şÏà¶Ô¸¸´°¿Ú×óÓÒ¾ÖÖĞ
 
+
+å®šä¹‰æ§ä»¶ç›¸å¯¹çˆ¶çª—å£ä¸Šä¸‹å±€ä¸­
 
     android:layout_centerVertical="true"
-¶¨Òå¿Ø¼şÏà¶Ô¸¸´°¿ÚÉÏÏÂ¾ÖÖĞ
 
+
+å®šä¹‰æ§ä»¶ç›¸å¯¹çˆ¶çª—å£ä¸Šä¸‹å·¦å³éƒ½å±€ä¸­
 
     android:layout_centerInParent="true"
-¶¨Òå¿Ø¼şÏà¶Ô¸¸´°¿ÚÉÏÏÂ×óÓÒ¶¼¾ÖÖĞ
