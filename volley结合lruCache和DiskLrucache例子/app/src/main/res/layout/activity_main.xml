@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:extend="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_outmost_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/main_gesture_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/gesture_overlay_margin"
+        style="@style/gesture_overlay_use">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/main_actv_time_margin_left">
+            <TextView
+                android:id="@+id/main_tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom|right"
+                android:textSize="@dimen/text_size_clock"
+                android:textColor="@color/clock_textv_color"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"/>
+            <TextView
+                android:id="@+id/main_tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:gravity="top|right"
+                android:text="2014-04-12 | Saturday"
+                android:textColor="@color/clock_textv_color"
+                android:textSize="@dimen/text_size_small_title"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"/>
+        </LinearLayout>
+    </android.gesture.GestureOverlayView>
+
+    <ImageView
+        android:id="@+id/main_settings_outmost"
+        android:layout_width="@dimen/main_actv_topleft_iv_dimen"
+        android:layout_height="@dimen/main_actv_topleft_iv_dimen"
+        android:layout_gravity="top|left"
+        android:padding="@dimen/settings_outmost_margin"
+        android:src="@drawable/ic_info"
+        android:background="@drawable/btn_bg_transparent"/>
+
+    <org.vliux.android.gesturecut.ui.view.UnlockBar
+        android:id="@+id/main_unlock_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+    </org.vliux.android.gesturecut.ui.view.UnlockBar>
+
+    <org.vliux.android.gesturecut.ui.view.GestureList.GestureList
+        android:id="@+id/main_gesture_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        extend:showHideRequired="true"></org.vliux.android.gesturecut.ui.view.GestureList.GestureList>
+
+    <!-- ImageView for animator when starting activty of defined gestures -->
+    <ImageView
+        android:id="@+id/main_appicon_startactiv"
+        android:layout_width="@dimen/icon_dimen_global_large"
+        android:layout_height="@dimen/icon_dimen_global_large"
+        android:layout_gravity="bottom|center_horizontal"
+        android:visibility="gone"/>
+</FrameLayout>

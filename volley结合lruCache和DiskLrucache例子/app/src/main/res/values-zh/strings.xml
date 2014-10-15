@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">弹指</string>
+
+    <!-- text in background for recording a new gesture -->
+    <string name="gesture_bg_title_record">画出要添加的手势</string>
+    <!-- text in background for starting activity from a gesture -->
+    <string name="gesture_bg_title_use">画出要使用的手势</string>
+
+    <string name="saving_gesture_completed">手势%s已保存</string>
+    <string name="start_activity_from_gesture">通过手势启动任务...</string>
+    <string name="start_activity_failed">抱歉，无法启动该任务</string>
+    <string name="no_gesture_match">没有匹配的手势</string>
+
+    <string name="gesture_list_title">您的手势</string>
+    <string name="gesture_list_no_defined">您还没有可用的手势，请先添加手势。</string>
+
+    <string name="float_window_2nd_tab_add">添加手势</string>
+    <string name="float_window_2nd_tab_use">使用手势</string>
+
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="get_it">知道了</string>
+
+    <string name="appinfo_app_detail_clz">组件名: \u0020</string>
+    <string name="appinfo_app_detail_pkg">包名: \u0020</string>
+
+    <!-- filters of adding gestures -->
+    <string name="target_component_invalid">此目标任务可能无效，不建议添加！</string>
+
+    <string name="add_gesture_confirm_title">添加新的手势</string>
+    <string name="add_gesture_confirm_content">确认保存该手势吗?</string>
+
+    <!-- warning dialog of highly duplicated gesture trying to be added -->
+    <string name="add_gesture_alert_duplicate">不建议添加该手势</string>
+    <string name="add_gesture_alert_duplicate_content">新的手势和已存在的手势过于相似，请重画一个手势.</string>
+
+    <!-- FwDialogView sub-titles for imageview -->
+    <string name="add_gesture_subtitle_new_gesture">新的手势</string>
+    <string name="add_gesture_subtitle_target_task">对应的任务</string>
+    <string name="add_gesture_subtitle_similar_gesture">已存在的手势</string>
+
+    <!-- settings -->
+    <string name="setting_lockscreen_status">锁屏状态</string>
+    <string name="setting_lockscreen_status_summary_on">锁屏已打开</string>
+    <string name="setting_lockscreen_status_summary_off">锁屏已关闭</string>
+    <string name="setting_help_title">帮助</string>
+    <string name="setting_help_summary">显示引导页</string>
+</resources>

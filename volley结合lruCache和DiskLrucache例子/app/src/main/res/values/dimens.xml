@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gesture_thumbnail_width">60dp</dimen>
+    <dimen name="gesture_thumbnail_height">60dp</dimen>
+
+    <dimen name="gesture_overlay_margin">12dp</dimen>
+
+    <!-- main activity -->
+    <dimen name="main_actv_time_margin_left">12dp</dimen>
+    <dimen name="main_actv_topleft_iv_dimen">50dp</dimen> <!-- icon_dimen_global + 10dp + 10dp -->
+
+    <!-- global listview dividers -->
+    <dimen name="listview_divider_thick">3dp</dimen>
+    <dimen name="listview_divider_thin">1dp</dimen>
+
+    <dimen name="settings_outmost_margin">10dp</dimen>
+
+    <!-- global icon dimension -->
+    <dimen name="icon_dimen_global">30dp</dimen>
+    <dimen name="icon_dimen_global_large">60dp</dimen>
+
+    <dimen name="title_bar_height">45dp</dimen>
+
+    <!-- gesture list view, for editing existing gestures -->
+    <dimen name="gesture_list_outter_margin">10dp</dimen>
+    <dimen name="gesture_list_item_height">90dp</dimen>
+    <dimen name="gesture_list_item_icon_dimen">60dp</dimen>
+    <dimen name="gesture_list_item_padding_vertical">4dp</dimen>
+    <dimen name="gesture_list_item_vertical_divider_margin_horiz">6dp</dimen>
+    <dimen name="gesture_list_tite_btns_padding_horiz">3dp</dimen>
+    <dimen name="gesture_list_tite_btns_padding_verti">10dp</dimen>
+    <dimen name="gesture_list_bottom_bar_height">60dp</dimen>
+
+    <dimen name="text_size_tiny">14dp</dimen>
+    <dimen name="text_size_general">16dp</dimen>
+    <dimen name="text_size_small_title">22dp</dimen>
+    <dimen name="text_size_large_title">28dp</dimen>
+    <dimen name="text_size_clock">80dp</dimen>
+
+    <!-- UnlockBar -->
+    <dimen name="unlock_bar_margin_vertical">20dp</dimen>
+
+    <!-- 2nd float window -->
+    <dimen name="switch_layout_height">45dp</dimen>
+    <dimen name="fw2_outmost_margin">45dp</dimen>
+    <dimen name="fw2_tablelayout_padding">8dp</dimen>
+
+    <!-- action bar -->
+    <dimen name="back_imgv_margin_horiz">10dp</dimen>
+    <!-- welcome pages -->
+    <dimen name="welcome_dots_margin_bottom">30dp</dimen>
+    <dimen name="welcome_start_btn_padding_vertical">15dp</dimen>
+</resources>
