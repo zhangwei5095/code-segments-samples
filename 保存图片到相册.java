@@ -46,3 +46,7 @@ private boolean addBitmapToAlbum(Context context, Bitmap bm) {
         }  
         return filePath;  
     }
+
+
+
+add test….
